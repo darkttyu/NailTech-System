@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* For Logo Box */
+.logo {
+    background-color: #E0D4C7;
+}
+
+.logo-img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%; /* Distance from the top */
+    left: 13%; /* Distance from the left */
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+/* For Login Box */
+.login {
+    background-color: #C9B090;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.motto {
+    color: #F5F5F5;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    position: absolute;
+    top: 125px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust gap between fields */
+    align-items: center; /* Center fields horizontally */
+    max-width: 500px; /* Set a max-width for consistency */
+    width: 100%; /* Make form width full */
+}
+
+/* Label Styles */
+.user_label,
+.user_password {
+    color: #F5F5F5;
+    font-weight: bold;
+    width: 100%; /* Ensure labels are full width of the form */
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+/* Input Field Styles */
+#username,
+#password {
+    border-radius: 8px;
+    border: 1px solid #C9B090;
+    width: 100%;
+    max-width: 435px; /* Set a max-width for consistency */
+    height: 30px;
+    font-size: medium;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#username:focus,
+#password:focus {
+    border-color: #C9B090;
+    outline: none;
+}
+
+/* Button Styles */
+#login_button {
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    background-color: #4C4949;
+    color: #ffffff;
+    cursor: pointer;
+    align-self: center; /* Center button horizontally */
+    position: relative;
+    top: 40px;
+}
