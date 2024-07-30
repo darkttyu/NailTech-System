@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: employeePage.php");
         exit;
     } elseif (isset($_POST['Appointment'])) {
-        header("Location: appointmentPage.html");
+        header("Location: appointmentPage.php");
         exit;
     } elseif (isset($_POST['Logout'])) {
         header("Location: login.html");

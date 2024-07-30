@@ -9,21 +9,25 @@ html, body {
   width: 100%;
   height: 10%;
   background-color: #C9B090;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  position: relative;
 }
 
 #logo {
   width: 95px;
   height: 95px;
-  position: relative;
-  bottom: 12px;
+  position: absolute; 
   left: 10px;
 }
 
 #home, #employee, #appointment {
   font-family: 'Inter';
-  font-weight: bold; 
+  font-weight: bold;
   text-decoration: none;
   position: relative;
+  margin: 0 100px; 
 }
 
 #home:active, #employee:active, #appointment:active {
@@ -33,26 +37,22 @@ html, body {
 
 #home {
   color: #FFFFFF;
-  left: 40%;
-  bottom: 50px;
 }
 
 #employee {
   color: #000000;
-  left: 45%;
-  bottom: 50px;
 }
 
 #appointment {
   color: #FFFFFF;
-  left: 50%;
-  bottom: 50px;
 }
 
 .appointmentButtons {
   width: 100%;
   height: 15%;
-  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 #setAppointment, #updateAppointment, #cancelAppointment {
@@ -65,8 +65,7 @@ html, body {
   text-align: center;
   border: none;
   border-radius: 5px;
-  display: inline-block;
-  margin: 37px auto;
+  margin-right: 90px; 
   cursor: pointer;
 }
 
@@ -75,41 +74,30 @@ html, body {
   transition: 0.15s;
 }
 
-#setAppointment {
-  position: relative;
-  left: 200px;
-}
-
-#updateAppointment {
-  position: relative;
-  left: 300px;
-}
-
-#cancelAppointment {
-  position: relative;
-  left: 400px;
+form {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
 #searchAppointment {
   width: 200px;
   background-color: #E0D4C7;
-  position: relative;
-  left: 500px;
+  margin-left: 5px;
+  margin-right: 10px; 
 }
 
 #searchIcon {
   background-color: #E0D4C7;
-  position: relative;
-  left: 500px;
   border: none;
   cursor: pointer;
 }
 
 .appointmentContainer {
-  max-height: 500px; 
-  overflow-y: auto; 
-  margin: 0px 200px 50px 200px; 
-  width: 70%; 
+  max-height: 500px;
+  overflow-y: auto;
+  margin: 0 200px 50px 200px;
+  width: 70%;
 }
 
 table {

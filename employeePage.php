@@ -21,7 +21,7 @@
         <!-- Navigation links -->
         <a id="home" href="homepage.html">HOME</a>
         <a id="employee" href="employeePage.php">EMPLOYEE MANAGEMENT</a>
-        <a id="appointment" href="appointmentPage.html">APPOINTMENT SCHEDULING</a>
+        <a id="appointment" href="appointmentPage.php">APPOINTMENT SCHEDULING</a>
     </div>
     
     <!-- Form for Add and Update buttons -->
