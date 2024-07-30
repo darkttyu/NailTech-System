@@ -29,6 +29,11 @@ html, body {
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
+.logo-img:hover {
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.5));
+    transition: 0.20s;
+}
+
 /* For Login Box */
 .login {
     background-color: #C9B090;
@@ -99,4 +104,17 @@ form {
     align-self: center; /* Center button horizontally */
     position: relative;
     top: 40px;
+    border: 1px solid #000000
+}
+
+#login_button:hover {
+    background-color: #E0D4C7;
+    color: black;
+    transition: 0.20s;
+}
+
+#login_button:active {
+    background-color: #4C4949;
+    color: white;
+    transition: 0.10s;
 }

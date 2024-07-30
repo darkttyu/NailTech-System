@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to favicon -->
+    <link rel="icon" href="../assets/logo.png" type="image/icon type">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/empadd_style.css">
+    <title>Add Employee</title>
+</head>
+<body>
+    <!-- Top navigation bar -->
+    <div class="topnav">
+        <!-- Company logo -->
+        <img id="logo" src="../assets/logo.png">
+        <!-- Navigation links -->
+        <a id="home" href="/homepage.html">HOME</a>
+        <a id="employee" href="/employeePage.php">EMPLOYEE MANAGEMENT</a>
+        <a id="appointment" href="/appointmentPage.html">APPOINTMENT SCHEDULING</a>
+    </div>
+
+    <!-- Instruction for the form -->
+    <p id="instruction">Provide the Following Details to Add an Employee</p>
+    
+    <!-- Form for adding a new employee -->
+    <form action="insert_employee.php" method="post">
+        <!-- Employee ID input field -->
+        <p id="id">Employee ID:</p>
+        <input id="emp_id" name="empID" type="text" placeholder="Eg. NT001" required> 
+        
+        <!-- Employee Name input field -->
+        <p id="name">Employee Name:</p>
+        <input id="emp_name" name="empName" type="text" placeholder="Eg. John Cena" required> 
+
+        <!-- Employee Phone Number input field -->
+        <p id="number">Employee Phone Number:</p>
+        <input id="emp_number" name="empNumber" type="text" placeholder="Eg. 09xx xxx xxxx" required>
+        
+        <!-- Employee Status dropdown -->
+        <p id="status">Employee Status:</p>
+        <select id="emp_status" name="empStatus" required>
+            <option value="">Select Status</option>
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+            <option value="Part time">Part Time</option>
+        </select> 
+        
+        <!-- Submit button with confirmation dialog -->
+        <input id="confirm" type="submit" value="CONFIRM" onclick="return confirmInsertion()" required>
+    </form>
+    
+    <!-- JavaScript function to confirm form submission -->
+    <script>
+        function confirmInsertion() {
+            let dialog = "Confirm Employee Insertion?\nCheck if all necessary information are present or Cancel.";
+            return window.confirm(dialog);
+        }
+    </script>
+</body>
+</html>

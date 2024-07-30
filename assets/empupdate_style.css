@@ -1,0 +1,153 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #E0D4C7;
+}
+
+.topnav {
+    width: 100%;
+    height: 10%;
+    background-color: #C9B090;
+}
+
+#logo {
+    width: 95px;
+    height: 95px;
+    position: relative;
+    bottom: 12px;
+    left: 10px;
+}
+
+#home, #employee, #appointment {
+    font-family: 'Inter';
+    font-weight: bold; 
+    text-decoration: none;
+    position: relative;
+}
+
+#home {
+    color: #FFFFFF;
+    left: 40%;
+    bottom: 50px;
+}
+
+#employee {
+    color: #000000;
+    left: 45%;
+    bottom: 50px;
+}
+
+#appointment {
+    color: #FFFFFF;
+    left: 50%;
+    bottom: 50px;
+}
+
+#id, #name, #number, #status {
+    font-family: 'Inter';
+}
+
+
+#emp_ID, #emp_name, #emp_phonenum{
+    width: 500px;
+    height: 25px;
+    background-color: #C9B090;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+
+#emp_ID {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+#id {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+#emp_name {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+#name {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+}
+
+#emp_phonenum {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+#number {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+
+#emp_status {
+    width: 300px;
+    height: 30px;
+    background-color: #C9B090;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #000000;
+    position: absolute;
+    top: 398px;
+    left: 800px;
+    border-radius: 5px;
+}
+
+#status {
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+
+#confirm {
+    width: 200px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #716E6E;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 400px;
+    left: 630px;
+    
+}
+
+#confirm:hover {
+    background-color: #534E4E;
+}
+
+.search-container {
+    width: 100%;
+    margin-left: 77%;
+    margin-top: 50px;
+    
+}
+
+#search {
+    width: 200px;
+    background-color: #E0D4C7;
+}
+
+#search-icon {
+    border: none;
+    background-color: #E0D4C7;
+    cursor: pointer;
+}

@@ -1,21 +1,21 @@
 html, body {
     height: 100%;
-    margin: 0%;
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #C9B090;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
 .logo_position {
-    position: absolute;
-    top: 20%;
-    right: 40%;
+    margin-bottom: 20px;
 }
 
 #logo_img {
@@ -24,10 +24,14 @@ html, body {
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
 }
 
+#logo_img:hover {
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.5));
+    transition: 0.20s;
+}
+
 .motto_position {
-    position: absolute;
-    top: 55%;
-    right: 38%
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #motto {
@@ -35,37 +39,26 @@ html, body {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    text-align: center;
+    margin-left: 20px;
 }
 
-.EmpMan {
-    position: relative;
-    top: 65%;
-    left: 41%;
-}
-
-#EmpButton {
+#EmpButton, #AppButton, #LogOutButton {
     color: #574C3D;
     width: 250px;
     height: 40px;
     font-weight: bold;
-    opacity: .45;
+    opacity: .85;
     border-radius: 5px;
     cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-.AppSched {
-    position: relative;
-    top: 75%;
-    left: 22.2%
+#EmpButton:hover, #AppButton:hover, #LogOutButton:hover {
+    background-color: #dbc4a3;
+    transition: 0.15px;
 }
 
-#AppButton {
-    color: #574C3D;
-    width: 250px;
-    height: 40px;
-    font-weight: bold;
-    opacity: .45;
-    border-radius: 5px;
-    cursor: pointer;
+#EmpButton:active, #AppButton:active, #LogOutButton:active {
+    background-color: #F5F5F5;
 }

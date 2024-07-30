@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html lang ="en">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Nailed It - Log In</title>
+    <title>Nailed It - Log In</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="assets/login_style.css">
+    <!-- Link to favicon -->
     <link rel="icon" href="assets/logo.png" type="image/icon type">
-
 </head>
-
 <body>
+    <!-- Main container for the login page -->
     <div class="container">
+        <!-- Logo box -->
         <div class="box logo"> 
+            <!-- Logo -->
             <img class="logo-img" src="assets/logo.png">
         </div>
+        <!-- Login form box -->
         <div class="box login"> 
-            <p class="motto"> "Nailed It! Where beauty meets <br>precision and elegance!"</p>
-            <form id="login" action="" method="POST">
-                <label for="username" class="user_label"> <strong> USERNAME: </strong> </label>
+            <!-- Motto displayed above the login form -->
+            <p class="motto">"Nailed It! Where beauty meets <br>precision and elegance!"</p>
+            <!-- Login form -->
+            <form id="login" action="login.php" method="post">
+                <!-- Username label and input field -->
+                <label for="username" class="user_label"><strong>USERNAME:</strong></label>
                 <input id="username" type="text" name="username" required>
                 
-                <label for="password" class="user_password"> <strong> PASSWORD: </strong></label>
+                <!-- Password label and input field -->
+                <label for="password" class="user_password"><strong>PASSWORD:</strong></label>
                 <input id="password" type="password" name="password" required>
-            
-                <input id="login_button" type="submit" value="Login">
+                
+                <!-- Submit button for the login form -->
+                <input id="login_button" value="SUBMIT" type="submit">
             </form>
         </div>
     </div>
 </body>
-    <script src="login_script.js"></script>
 </html>

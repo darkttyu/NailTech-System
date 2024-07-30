@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="assets/homepage_style.css">
+    <!-- Link to favicon -->
     <link rel="icon" href="assets/logo.png" type="image/icon type">
     <title>Home</title>
 </head>
-
-    <body>
-        <div class="container">
-            <div class="logo_position"> 
-                <img id="logo_img" src="assets/logo.png">
-            </div>
-
-            <div class="motto_position"> 
-                <p id="motto"> Welcome to NailedIt! Where beauty <br> meets precision and elegance!</p>
-            </div>
-            
-            <form action="/" method="POST">
-                <div class="EmpMan">
-                    <button id="EmpButton" name="clickedButton" value="Employee"> Employee Management </button>
-                    
-                </div>
-    
-                <div class="AppSched">
-                    <button id="AppButton" name="clickedButton" value="Appointment"> Appointment Scheduling </button>
-                </div>
-            </form>
+<body>
+    <!-- Main container for the homepage -->
+    <div class="container">
+        <!-- Logo positioning -->
+        <div class="logo_position">
+            <!-- Company logo -->
+            <img id="logo_img" src="assets/logo.png">
         </div>
 
-        <script src="homepage.js"></script>
-    </body>
+        <!-- Motto positioning -->
+        <div class="motto_position">
+            <!-- Welcome message with motto -->
+            <p id="motto">Welcome to NailedIt! Where beauty <br> meets precision and elegance!</p>
+        </div>
+        
+        <!-- Form with buttons for navigation -->
+        <form action="homepage.php" method="post">
+            <!-- Employee Management button -->
+            <div class="EmpMan">
+                <button id="EmpButton" name="Employee" type="submit">Employee Management</button>
+            </div>
+    
+            <!-- Appointment Scheduling button -->
+            <div class="AppSched">
+                <button id="AppButton" name="Appointment" type="submit">Appointment Scheduling</button>
+            </div>
+
+            <!-- Log Out button -->
+            <div class="LogOut">
+                <button id="LogOutButton" name="Logout" type="submit">Log Out</button>
+            </div>
+        </form>
+    </div>
+</body>
 </html>
