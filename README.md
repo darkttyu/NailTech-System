@@ -45,5 +45,3 @@
 - [ ] Cancellation Confirmation
 - [ ] Deletion from DB of Customer Information
 
-### Refresh Window
-- [ ] Fetching of Updated Data from DB and Display
