@@ -152,7 +152,7 @@ html, body {
   transition: 0.15s;
 }
 
-#confirmButton:active, #returnButton:hover {
+#confirmButton:active, #returnButton:active {
   background-color: #716E6E;
 }
 
