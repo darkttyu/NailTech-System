@@ -18,10 +18,13 @@
         </div>
         
         
-        <div class="appointmentButtons"> 
-            <button id="setAppointment">SET AN APPOINTMENT</button>
-            <button id="updateAppointment">UPDATE AN APPOINTMENT</button>
-            <button id="cancelAppointment">CANCEL APPOINTMENT</button>
+        <div class="appointmentButtons">
+             
+            <form action="checkAppointmentButton.php" method="POST">
+                <button id="setAppointment" name="Set" >SET AN APPOINTMENT</button>
+                <button id="updateAppointment" name="Update" >UPDATE AN APPOINTMENT</button>
+                <button id="cancelAppointment" name="Cancel" >CANCEL APPOINTMENT</button>
+            </form>
             
             <form action="appointmentPage.php" method="GET">
 

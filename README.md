@@ -13,7 +13,7 @@
 ## Appointment Management
 
 ### Appointment Scheduling Window
-- [ ] Set an Appointment
+- [x] Set an Appointment
 - [ ] Update Appointment
 - [ ] Cancel Appointment
 - [x] Search Appointment/s via Nail Technician Name
@@ -32,8 +32,8 @@
     - Rescheduled
     - Cancelled (To be brainstormed)
 
-- [ ] Confirm Appointment Functionality (Window Popping, confirming appointment)
-- [ ] Return (Returning to Home Page)
+- [x] Confirm Appointment Functionality (Window Popping, confirming appointment)
+- [x] Return (Returning to Home Page)
 
 #### Appointment Modification
 - [ ] Displaying Info on Selected Appointment

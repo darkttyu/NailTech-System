@@ -47,3 +47,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $get_duplicate->close();
     $insert_employee->close();
 }
+
+?>
