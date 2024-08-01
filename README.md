@@ -1,4 +1,12 @@
-# To-Do List
+# People behind the System
+Deither John Arias
+Mikaila Jhay Bacolod
+Cydrick James Cortel
+Carl Matthew G. Fernandez
+Lovette Trongco
+Mark Aldwin Uriarte
+
+## To-Do List
 
 ## Login Window
 - [x] Username
