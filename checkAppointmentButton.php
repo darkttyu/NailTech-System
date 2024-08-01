@@ -14,17 +14,24 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     } else if (isset($_POST['Cancel'])) {
         echo "<script>
-        var customerName = window.prompt('To cancel an Appointment, search for the name of the Customer First: ');
-    
-        if(customerName) {
-            window.location.href='/appointments/cancelAppointment.php?customerName=' + encodeURIComponent(customerName);
-        } else {
-            window.alert('Cancellation Aborted. No customer name found.');
-            window.location.href = '../appointmentPage.php';
+            var customerName = window.prompt('To cancel an Appointment, search for the name of the Customer First: ');
+        
+            if (customerName) {
+                var confirmDialog = window.confirm('Confirm Appointment Cancellation?\\nCheck if all necessary information is present or Cancel.');
+                
+                if (confirmDialog) {
+                    window.location.href='/appointments/cancelAppointment.php?customerName=' + encodeURIComponent(customerName);
+                } else {
+                    alert('Cancellation Aborted.');
+                    window.location.href = '../appointmentPage.php'
+                }
+            } else {
+                window.alert('Cancellation Aborted. No customer name found.');
+                window.location.href = '../appointmentPage.php';
+            }
+            </script>";
+            exit();
         }
-        </script>";
-        exit();
-    }
 }
 
 ?>

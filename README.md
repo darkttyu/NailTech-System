@@ -14,8 +14,8 @@
 
 ### Appointment Scheduling Window
 - [x] Set an Appointment
-- [ ] Update Appointment
-- [ ] Cancel Appointment
+- [x] Update Appointment
+- [x] Cancel Appointment
 - [x] Search Appointment/s via Nail Technician Name
 
 #### Appointment Setting Window
@@ -35,13 +35,13 @@
 - [x] Confirm Appointment Functionality (Window Popping, confirming appointment)
 - [x] Return (Returning to Home Page)
 
-#### Appointment Modification
-- [ ] Displaying Info on Selected Appointment
-- [ ] Updating Appointment Information to UI and Database
-- [ ] Confirm Appointment Modification Functionality (Window Popping, confirming modification)
+#### Appointment Update
+- [x] Displaying Info on Selected Appointment
+- [x] Updating Appointment Information to UI and Database
+- [x] Confirm Appointment Modification Functionality (Window Popping, confirming modification)
 
 #### Appointment Cancellation
-- [ ] Clicking an Appointment then Clicking the Cancel Appointment Button
-- [ ] Cancellation Confirmation
-- [ ] Deletion from DB of Customer Information
+- [x] Searching for Appointment to Cancel
+- [x] Cancellation Confirmation
+- [x] Cancellation Reflected in Database
 
