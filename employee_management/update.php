@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($update_success) {
             echo "<script>
                 alert('Employee Information Updated Successfully! Returning to Employee Page.');
-                window.location.href = '../employee_page.php';
+                window.location.href = '../employeePage.php';
             </script>";
         }
     } else {

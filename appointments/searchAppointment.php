@@ -24,10 +24,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($_GET['searchedName'])) {
     } else {
         // Handle case where employee is not found
         echo "<script>
-            alert('Employee not found.');
+            alert('Appointment not found.');
             window.location.href = 'updateAppointment.php';
         </script>";
         exit();
     }
 }
+
+// echo '<pre>';
+// print_r($appointment);
+// echo '</pre>';
+
 ?>

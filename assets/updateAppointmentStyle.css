@@ -47,3 +47,143 @@ html, body {
 #appointment {
   color: #000000;
 }
+
+.searchContainer {
+  margin: 50px 0px 10px 75%;
+}
+
+#searchAppointment {
+  width: 200px;
+  background-color: #E0D4C7;
+  margin-left: 5px;
+  margin-right: 10px; 
+}
+
+#searchIcon {
+  background-color: #E0D4C7;
+  border: none;
+  cursor: pointer;
+}
+
+.appointmentUpdateContainer {
+  display: flex;
+  gap: 10px;
+}
+
+#customerNameInput, #customerNumberInput, #dateInput, #timeInput, #selectTech, #selectStatus {
+  width: 500px;
+  height: 25px;
+  background-color: #C9B090;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+
+#name {
+  position: relative;
+  left: 100px;
+}
+
+#customerNameInput {
+  position: absolute;
+  left: 100px;
+}
+
+#number {
+  position: relative;
+  bottom: 35px;
+  left: 800px;
+}
+
+#customerNumberInput {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+
+#date {
+  position: relative;
+  top: 55px;
+  left: 100px;
+}
+
+#dateInput {
+  position: absolute;
+  top: 325px;
+  left: 100px;
+  text-align: center;
+  cursor: pointer
+}
+
+#time {
+  position: relative;
+  top: 15px;
+  left: 800px;
+}
+
+#timeInput {
+  position: absolute;
+  top: 325px;
+  left: 800px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#nailTechName {
+  position: relative;
+  top: 110px;
+  left: 100px;
+}
+
+#selectTech {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#appointmentStatus {
+  position: relative;
+  top: 75px;
+  left: 800px;
+}
+
+#selectStatus {
+  position: absolute;
+  top: 450px; 
+  left: 800px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#returnButton, #confirmButton{
+  width: 250px;
+  height: 40px;
+  background-color: #716E6E;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  left: 575px;
+}
+
+#confirmButton {
+  top: 525px;
+}
+
+#returnButton {
+  top: 590px;
+}
+
+#confirmButton:hover, #returnButton:hover {
+  background-color: #534E4E;
+  transition: 0.15s;
+}
+
+#confirmButton:active, #returnButton:active {
+  background-color: #716E6E;
+}

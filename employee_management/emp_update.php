@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to favicon -->
-    <link rel="icon" href="../assets/logo.png" type="image/icon type">
-    <!-- Link to Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
-    <!-- Link to Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Link to external CSS stylesheet -->
-    <link rel="stylesheet" href="../assets/empupdate_style.css">
+        <!-- Link to favicon -->
+        <link rel="icon" href="../assets/logo.png" type="image/icon type">
+        <!-- Link to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+        <!-- Link to Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="../assets/empupdate_style.css">
     <title>Update Employee</title>
 </head>
 
